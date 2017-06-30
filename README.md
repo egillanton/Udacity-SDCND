@@ -1,5 +1,5 @@
 # Udacity-SDCND
-My projects for the [Self-Driving Car Nanodegree (SDCND)](https://www.udacity.com/drive) at Udacity starting Term 1 at July 17th 2017.
+My projects for the [Self-Driving Car Nanodegree (SDCND)](https://www.udacity.com/drive) at Udacity, starting Term 1 at July 17th 2017.
 
 
 ![Image of Udacity's Self-Driving Car](https://cdn-images-1.medium.com/max/800/1*dRJ1tz6N3MqO1iCFzlhxZg.jpeg "Udacity's Self-Driving Car")
