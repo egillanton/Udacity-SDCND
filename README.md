@@ -1,6 +1,5 @@
 # Udacity-SDCND
-My projects for the [Self-Driving Car Nanodegree (SDCND)](https://www.udacity.com/drive) at Udacity, starting Term 1 at July 17th 2017.
-
+My projects for the [Self-Driving Car Nanodegree (SDCND)](https://www.udacity.com/drive) at Udacity.
 
 ![Image of Udacity's Self-Driving Car](https://cdn-images-1.medium.com/max/800/1*dRJ1tz6N3MqO1iCFzlhxZg.jpeg "Udacity's Self-Driving Car")
 
@@ -14,7 +13,7 @@ Self-driving cars represent one of the most significant advances in modern histo
 Students who enroll in this program will master technologies that are going to shape the future. Through interactive projects in computer vision, robotic controls, localization, path planning, and more, you’ll prepare yourself for a key role in this incredible field.
 
 ## The Syllabus
-### Term 1
+### **Term 1** (July 17th 2017 - October 23rd 2017)
 #### Introduction
 
 Meet the instructors — Sebastian Thrun, Ryan Keenan, and myself. Learn about the systems that comprise a self-driving car, and the structure of the program.
@@ -54,6 +53,38 @@ Detect lane lines in a variety of conditions, including changing road surfaces, 
 
 ##### Project: Vehicle Tracking
 Track vehicles in camera images using image classifiers such as SVMs, decision trees, HOG, and DNNs. Apply filters to fuse position data.
+
+## Core Curriculum
+###### 3 PARTS, 10 PROJECTS
+
+### Term 1 Computer Vision and Deep Learning
+
+In this course, I will become an expert in applying Computer Vision and Deep Learning on automotive problems. I will teach the car to detect lane lines, predict steering angle, and more all based on just camera data!
+
+* #### [Project 1. Finding Lane Lines on the Road](#)
+* #### [Project 2. Traffic Sign Classifier](#)
+* #### [Project 3. Behavioral Cloning](#)
+* #### [Project 4. Advanced Lane Finding](#)
+* #### [Project 5. Vehicle Detection and Tracking](#)
+
+
+### 2. Sensor Fusion, Localization, and Control
+
+In this course, I will learn how to use an array of sensor data to perceive the environment and control the vehicle. I will evaluate sensor data from camera, radar, lidar, and GPS, and use these in closed-loop controllers that actuate the vehicle.
+
+### 3. Path Planning, Concentrations, and Systems
+
+In this course, I will learn how to plan where the vehicle should go, how the vehicle systems work together to get it there, and I will perform a deep-dive into a concentration of my choice.
+
+## Extracurricular
+###### 2 PARTS, 7 PROJECTS
+
+### 4. Job Search Strategies
+Opportunity can come when I least expect it, so when my dream job comes along, I want to be ready. In the following lessons, I will learn strategies for conducting a successful job search, including developing a targeted resume and cover letter for that job.
+
+### 5. Networking
+Networking is a very important component to a successful job search. In the following lesson, I will learn how tell my unique story to recruiters in a succinct and professional but relatable way.
+
 
 ---
 [Reference](https://medium.com/self-driving-cars/term-1-in-depth-on-udacitys-self-driving-car-curriculum-ffcf46af0c08)
