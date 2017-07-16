@@ -150,55 +150,61 @@ My solution consisted of following steps:
 
 #### Step 1. Get line slope to determine if its left or right side
 
-            len = math.hypot(x2 - x1, y2 - y1)
-            
-            # Avoid dividing by 0
+            # Advoid divided by 0 exception
             if x1 == x2:
                 continue
                 
-            slope = ((y2-y1)/(x2-x1))
+            line_slope = ((y2-y1)/(x2-x1))
             
-            # Only accept slopes >= threshold
-            if abs(slope) < threshold:
+            # only accept slopes >= threshold
+            if abs(line_slope) < threshold:
                 continue
             
-            if (slope >= threshold ): # Then its Right side
+            if (line_slope >= threshold ): # Then its Right side
                 right_lines.append(line[0])
-            elif (slope < -threshold ): # Then its Left side
+            elif (line_slope < -threshold ): # Then its Left side
                 left_lines.append(line[0])
             
 #### Step 2. Get sets of x's and y's, for calculating Extrapolation based
 ###### [GREAT LINK TO REFERANCE](https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/06LeastSquares/extrapolation/complete.html)
 
-			# y = m*x + b
-            right_m = right_b = 1 
-            
-            # collect right lines x and y sets for least-squares curve-fitting extrapolation calculations      
+            # Calculate Extrapolation based least-squares curve-fitting calculations of all the previous points
+            # Good link:
+            # https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/06LeastSquares/extrapolation/complete.html
             right_lines_x = [x1 for x1, y1, x2, y2 in right_lines] + [x2 for x1, y1, x2, y2 in right_lines]
             right_lines_y = [y1 for x1, y1, x2, y2 in right_lines] + [y2 for x1, y1, x2, y2 in right_lines]
 
+             # Calculate the slope (m) and the intercept (b), They are kept the same
+            # y = m*x + b 
+            right_m = 1
+            right_b = 1
             if right_lines_x:
                 right_m, right_b = np.polyfit(right_lines_x, right_lines_y, 1)  # y = m*x + b
 
-            left_m = left_b = 1
-            # collect left lines x and y sets for least-squares curve-fitting extrapolation calculating
+            # collect left lines x and y sets for least-squares curve-fitting calculating
             left_lines_x = [x1 for x1, y1, x2, y2 in left_lines] + [x2 for x1, y1, x2, y2 in left_lines]
             left_lines_y = [y1 for x1, y1, x2, y2 in left_lines] + [y2 for x1, y1, x2, y2 in left_lines]
 
+            # Calculate the slope (m) and the intercept (b), They are kept the same
+            # y = m*x + b 
+            left_m = 1 
+            left_b = 1
             if left_lines_x:
                 left_m, left_b = np.polyfit(left_lines_x, left_lines_y, 1) 
             
+            # Calculate the y values
             y_size = img.shape[0]
-            
             y1 = y_size
             y2 = int(y_size*top_y_offset)
 
+            # Calculate the 4 points x values
             right_x1 = int((y1-right_b)/right_m)
             right_x2 = int((y2-right_b)/right_m)
 
             left_x1 = int((y1-left_b)/left_m)
             left_x2 = int((y2-left_b)/left_m)
 
+            # Graph  the lines
             if right_lines_x:
                 cv2.line(img, (right_x1, y1), (right_x2, y2), [255,0,0], 5)
             if left_lines_x:
