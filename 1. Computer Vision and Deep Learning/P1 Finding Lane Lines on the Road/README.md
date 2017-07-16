@@ -117,10 +117,10 @@ This will highlight the lines of interest.
 ### When Applied on Videos
 
 ##### Video 1 Solid White Right
-[![CarND T1 P1 01 - Finding Lane Lines on the Road - Solid White Right](https://img.youtube.com/vi/JkmnV8MGrqY/0.jpg)](https://www.youtube.com/watch?v=JkmnV8MGrqY)
+[![CarND T1 P1 01 - Finding Lane Lines on the Road - Solid White Right](https://img.youtube.com/vi/JkmnV8MGrqY/1.jpg)](https://www.youtube.com/watch?v=JkmnV8MGrqY)
 
 ##### Video 2 Solid Yellow Left 
-[![CarND T1 P1 02 - Finding Lane Lines on the Road - Solid Yellow Left ](https://img.youtube.com/vi/0VcgueMyfdw/0.jpg)](https://www.youtube.com/watch?v=0VcgueMyfdw)
+[![CarND T1 P1 02 - Finding Lane Lines on the Road - Solid Yellow Left ](https://img.youtube.com/vi/0VcgueMyfdw/1.jpg)](https://www.youtube.com/watch?v=0VcgueMyfdw)
 
 ---
 
@@ -130,7 +130,7 @@ At this point, I was successful with making the pipeline.
 Now I wanted improve it by identify the full extent of the lane and marking it clearly, with a line to run the full length of the visible lane based on the line segments I identified with the Hough Transform.
 
 ##### Video 3 Optional Challenge
-[![CarND T1 P1 03 - Finding Lane Lines on the Road - Optional Challenge](https://img.youtube.com/vi/g1BLQDu2z60/0.jpg)](https://www.youtube.com/watch?v=g1BLQDu2z60)
+[![CarND T1 P1 03 - Finding Lane Lines on the Road - Optional Challenge](https://img.youtube.com/vi/g1BLQDu2z60/1.jpg)](https://www.youtube.com/watch?v=g1BLQDu2z60)
 
 
 My solution is based on the already exciting **draw_lines()** function:
