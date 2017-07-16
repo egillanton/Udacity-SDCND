@@ -57,22 +57,16 @@ Track vehicles in camera images using image classifiers such as SVMs, decision t
 ## Core Curriculum
 ###### 3 PARTS, 10 PROJECTS
 
-### Term 1 Computer Vision and Deep Learning
+### [Term 1. Computer Vision and Deep Learning](https://github.com/egillanton/Udacity-SDCND/tree/master/1.%20Computer%20Vision%20and%20Deep%20Learning)
 
 In this course, I will become an expert in applying Computer Vision and Deep Learning on automotive problems. I will teach the car to detect lane lines, predict steering angle, and more all based on just camera data!
 
-* #### [Project 1. Finding Lane Lines on the Road](#)
-* #### [Project 2. Traffic Sign Classifier](#)
-* #### [Project 3. Behavioral Cloning](#)
-* #### [Project 4. Advanced Lane Finding](#)
-* #### [Project 5. Vehicle Detection and Tracking](#)
 
-
-### 2. Sensor Fusion, Localization, and Control
+### Term 2. Sensor Fusion, Localization, and Control
 
 In this course, I will learn how to use an array of sensor data to perceive the environment and control the vehicle. I will evaluate sensor data from camera, radar, lidar, and GPS, and use these in closed-loop controllers that actuate the vehicle.
 
-### 3. Path Planning, Concentrations, and Systems
+### Term 3. Path Planning, Concentrations, and Systems
 
 In this course, I will learn how to plan where the vehicle should go, how the vehicle systems work together to get it there, and I will perform a deep-dive into a concentration of my choice.
 
