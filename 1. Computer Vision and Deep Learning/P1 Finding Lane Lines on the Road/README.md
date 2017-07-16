@@ -16,39 +16,39 @@ In this project I detected lane lines in images using Python 3 and OpenCV.
 
 ## Setup (Windows 10)
 
-Step 1. Download: [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
+#### Step 1. Download: [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
 	> git clone https://github.com/udacity/CarND-Term1-Starter-Kit.git
 	> cd CarND-Term1-Starter-Kit
 
-Step 2. Rename **meta_windows_patch.yml** to **meta.yml**
+#### Step 2. Rename **meta_windows_patch.yml** to **meta.yml**
 
 	> rename meta_windows_patch.yml meta.yml
 
-Step 3. Install [`miniconda`](http://conda.pydata.org/miniconda.html) on your computer
+#### Step 3. Install [`miniconda`](http://conda.pydata.org/miniconda.html) on your computer
 
-Step 4. Create a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html) **carnd-term1** using this `CarND-Term1-Starter-Kit/environment.yml`
+#### Step 4. Create a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html) **carnd-term1** using this `CarND-Term1-Starter-Kit/environment.yml`
 	
 	> conda env create -f environment.yml
 
-Step 5. Download this project
+#### Step 5. Download this project
 
 	> cd ..
 	> git clone https://github.com/egillanton/Udacity-SDCND.git
 	> cd Udacity-SDCND/1.\ Computer\ Vision\ and\ Deep\ Learning/P1\ Finding\ Lane\ Lines\ on\ the\ Road/
 
-Step 6. Activate you **carnd-term1** enviroment
+#### Step 6. Activate you **carnd-term1** enviroment
 	
 	> activate carnd-term1
 
 
-Step 7. Install required packages
+#### Step 7. Install required packages
 
 	(carnd-term1) $ conda install numpy pandas matplotlib Pillow
 	(carnd-term1) $ pip install opencv-python
 	(carnd-term1) $ pip install moviepy
 
-Step 8. Run the envirmoment using Jupyter Notebook
+#### Step 8. Run the envirmoment using Jupyter Notebook
 
 	(carnd-term1) $ jupyter notebook P1.ipynb
 
@@ -140,7 +140,7 @@ My solution is based on the already exciting **draw_lines()** function:
 	        for x1,y1,x2,y2 in line:
 	            cv2.line(img, (x1, y1), (x2, y2), color, thickness)
 
-My solution consisted of 5 steps:
+My solution consisted of following steps:
 
 	def draw_lines2(img, lines, color=[255, 0, 0], thickness=2):
 	    threshold =  0.5
@@ -148,7 +148,7 @@ My solution consisted of 5 steps:
 	    for line in lines:
 	        for x1,y1,x2,y2 in line:
 
-###### Step 1. Get line slope to determine if its left or right side
+#### Step 1. Get line slope to determine if its left or right side
 
             len = math.hypot(x2 - x1, y2 - y1)
             
@@ -167,7 +167,7 @@ My solution consisted of 5 steps:
             elif (slope < -threshold ): # Then its Left side
                 left_lines.append(line[0])
             
-###### Step 2. Get sets of x's and y's, for calculating Extrapolation based
+#### Step 2. Get sets of x's and y's, for calculating Extrapolation based
 ###### [GREAT LINK TO REFERANCE](https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/06LeastSquares/extrapolation/complete.html)
 
 			# y = m*x + b
