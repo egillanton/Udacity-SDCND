@@ -1,6 +1,6 @@
 # **Project 1. Finding Lane Lines on the Road** 
 
-<img src="CarND-P1.jpg" alt="Title Image" />
+<img src="CarND-P1.JPG" alt="Title Image" />
 
 ## Overview
 ---
