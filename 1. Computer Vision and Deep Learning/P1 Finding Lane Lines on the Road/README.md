@@ -6,8 +6,8 @@
 ---
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
-
 In this project I detected lane lines in images using Python 3 and OpenCV.
+
 ---
 
 ## [My Code | Jupiter Notebook](https://github.com/egillanton/Udacity-SDCND/blob/master/1.%20Computer%20Vision%20and%20Deep%20Learning/P1%20Finding%20Lane%20Lines%20on%20the%20Road/P1.ipynb)
@@ -59,12 +59,10 @@ This will highlight the lines of interest.
 <img src="display_images_output/houghed_image.jpg" alt="Hough Transformed Image" height="250"  />
 
 
-#### Step 5. Apply Hough Transformation on our masked edged image.
+#### Step 6. Mask Hough transformed mage over the original image.
 
-This will highlight the lines of interest.
-
-##### Hough Transformed Image
-<img src="display_images_output/houghed_image.jpg" alt="Hough Transformed Image" height="250"  />
+##### Final Image
+<img src="display_images_output/final_image.jpg" alt="Hough Transformed Image" height="250"  />
 
 ### 2. Potential shortcomings
 
