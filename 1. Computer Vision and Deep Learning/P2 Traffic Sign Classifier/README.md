@@ -69,10 +69,3 @@ This should now work. If not, please refer to the link below:
 More in dept [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) installation instructions!):
 
 ---
-
-## My Solution
-
-
-
-
-------------------------
