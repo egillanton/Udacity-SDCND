@@ -4,8 +4,8 @@ In this course, I will become an expert in applying Computer Vision and Deep Lea
 
 * ## [Project 1. Finding Lane Lines on the Road](https://github.com/egillanton/Udacity-SDCND/tree/master/1.%20Computer%20Vision%20and%20Deep%20Learning/P1%20Finding%20Lane%20Lines%20on%20the%20Road)
 * ## [Lab 1. TensorFlow Neural Network](https://github.com/egillanton/Udacity-SDCND/tree/master/1.%20Computer%20Vision%20and%20Deep%20Learning/L1%20TensorFlow%20Lab)
-* ## [Lab 2. LeNet Lab](#)
-* ## [Project 2. Traffic Sign Classifier](#)
+* ## [Lab 2. LeNet Lab](https://github.com/egillanton/Udacity-SDCND/tree/master/1.%20Computer%20Vision%20and%20Deep%20Learning/L2%20LeNet%20Lab)
+* ## [Project 2. Traffic Sign Classifier](https://github.com/egillanton/Udacity-SDCND/tree/master/1.%20Computer%20Vision%20and%20Deep%20Learning/P2%20Traffic%20Sign%20Classifier)
 * ## [Project 3. Behavioral Cloning](#)
 * ## [Project 4. Advanced Lane Finding](#)
 * ## [Project 5. Vehicle Detection and Tracking](#)
